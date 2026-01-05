@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<UH html>
 <html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UH 2.0 | 氫能航空動力專家</title>
+    <title>UH | 氫能航空動力專家</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -21,7 +21,7 @@
 
     <nav class="bg-white/80 backdrop-blur-md border-b sticky top-0 z-50 px-8 py-4">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <span class="text-xl font-bold tracking-tight text-slate-800">UH 2.0 <span class="text-blue-600">Aviation</span></span>
+            <span class="text-xl font-bold tracking-tight text-slate-800">UH <span class="text-blue-600">Aviation</span></span>
             <div class="space-x-8 text-sm font-medium">
                 <a href="#vision" class="hover:text-blue-600">核心願景</a>
                 <a href="#tech" class="hover:text-blue-600">技術實力</a>
@@ -36,11 +36,11 @@
                 引領下一代 <span class="text-blue-400">液態氫</span> <br>eVTOL 動力革命
             </h1>
             <p class="text-xl text-blue-100 mb-12 font-light">
-                UH 2.0 致力於為 eVTOL 提供液態氫（LH2）儲存與燃料電池動力系統 。
+                UH 致力於為 eVTOL 提供液態氫（LH2）儲存與燃料電池動力系統。
             </p>
             <div class="flex flex-wrap justify-center gap-6">
-                <div class="bg-white/10 px-6 py-3 rounded-full border border-white/20">TRL 6-7 技術驗證 [cite: 12]</div>
-                <div class="bg-white/10 px-6 py-3 rounded-full border border-white/20">專注高增長市場 </div>
+                <div class="bg-white/10 px-6 py-3 rounded-full border border-white/20">TRL 6-7 技術驗證</div>
+                <div class="bg-white/10 px-6 py-3 rounded-full border border-white/20">專注高增長市場</div>
             </div>
         </div>
     </header>
@@ -48,8 +48,8 @@
     <section class="py-20 px-6 max-w-4xl mx-auto text-center reveal">
         <h2 class="text-3xl font-bold mb-6">為什麼是現在？為什麼是液態氫？</h2>
         <p class="text-lg text-slate-600 leading-relaxed">
-            對於實際航程需求，電池過重，氣態氫體積則過於龐大 [cite: 7]。<br>
-            對於 eVTOL，僅需數十公斤液態氫（LH2）即可達成所需的續航時間與任務目標 [cite: 8]。
+            對於實際航程需求，電池過重，氣態氫體積則過於龐大。<br>
+            對於 eVTOL，僅需數十公斤液態氫 (LH2) 即可達成所需的續航時間與任務目標。
         </p>
     </section>
 
@@ -57,25 +57,25 @@
         <div class="data-card p-8 reveal">
             <div class="text-blue-600 text-3xl mb-6"><i class="fas fa-microchip"></i></div>
             <h3 class="text-xl font-bold mb-4">1. 已驗證動力系統</h3>
-            <p class="text-slate-500 text-sm mb-6">曾成功在測試平台上飛行測試 1MW 氫電動力系統 [cite: 15, 17]。</p>
+            <p class="text-slate-500 text-sm mb-6">曾成功在測試平台上飛行測試 1MW 氫電動力系統。</p>
             <button onclick="toggleInfo('tech1')" class="text-blue-600 text-sm font-bold hover:underline">查看詳情</button>
-            <div id="tech1" class="hidden mt-4 text-xs bg-slate-50 p-4 rounded-lg">技術包含模塊化 LH2 儲存與經過驗證的真空絕緣技術 [cite: 18]。</div>
+            <div id="tech1" class="hidden mt-4 text-xs bg-slate-50 p-4 rounded-lg">技術包含模塊化 LH2 儲存與經過驗證的真空絕緣技術。</div>
         </div>
 
         <div class="data-card p-8 reveal">
             <div class="text-emerald-600 text-3xl mb-6"><i class="fas fa-chart-line"></i></div>
             <h3 class="text-xl font-bold mb-4">2. 鎖定領先市場</h3>
-            <p class="text-slate-500 text-sm mb-6">中國是全球 eVTOL 領先市場，已有商業營運案例 [cite: 52]。</p>
+            <p class="text-slate-500 text-sm mb-6">中國是全球 eVTOL 領先市場，已有商業營運案例。</p>
             <button onclick="toggleInfo('tech2')" class="text-blue-600 text-sm font-bold hover:underline">市場數據</button>
-            <div id="tech2" class="hidden mt-4 text-xs bg-slate-50 p-4 rounded-lg">2035 年全球市場規模預計將突破 400 億美元 [cite: 53]。</div>
+            <div id="tech2" class="hidden mt-4 text-xs bg-slate-50 p-4 rounded-lg">2035 年全球市場規模預計將突破 400 億美元。</div>
         </div>
 
         <div class="data-card p-8 reveal">
             <div class="text-orange-600 text-3xl mb-6"><i class="fas fa-boxes"></i></div>
             <h3 class="text-xl font-bold mb-4">3. 商業模式</h3>
-            <p class="text-slate-500 text-sm mb-6">提供航空系統套件，包含儲存模組與燃料電池動力系統 [cite: 38, 39, 40]。</p>
+            <p class="text-slate-500 text-sm mb-6">提供航空系統套件，包含儲存模組與燃料電池動力系統。</p>
             <button onclick="toggleInfo('tech3')" class="text-blue-600 text-sm font-bold hover:underline">執行計畫</button>
-            <div id="tech3" class="hidden mt-4 text-xs bg-slate-50 p-4 rounded-lg">第一階段重組團隊；第二階段透過中國供應鏈實現產業化量產 [cite: 28, 33]。</div>
+            <div id="tech3" class="hidden mt-4 text-xs bg-slate-50 p-4 rounded-lg">第一階段重組團隊；第二階段透過中國供應鏈實現產業化量產。</div>
         </div>
     </section>
 
@@ -86,11 +86,11 @@
 
     <div id="modal" class="fixed inset-0 bg-slate-900/80 hidden items-center justify-center z-[100] p-4 backdrop-blur-sm">
         <div class="bg-white p-8 rounded-3xl max-w-lg w-full text-center border border-blue-500">
-            <h4 class="text-2xl font-bold mb-4 text-blue-600">UH 2.0 核心策略</h4>
+            <h4 class="text-2xl font-bold mb-4 text-blue-600">UH 核心策略</h4>
             <p class="text-slate-600 mb-8 text-left text-sm leading-relaxed">
-                1. 專注於高增長的 eVTOL 市場，優先對接急需航程解決方案的廠商 [cite: 3, 32]。<br>
-                2. 利用中國成熟的液態氫儲罐製造與供應鏈能力進行量產 [cite: 36]。<br>
-                3. 以已驗證的 TRL 6-7 技術作為核心競爭優勢 [cite: 12]。
+                1. 專注於高增長的 eVTOL 市場，優先對接急需航程解決方案的廠商。<br>
+                2. 利用中國成熟的液態氫儲罐製造與供應鏈能力進行量產。<br>
+                3. 以已驗證的 TRL 6-7 技術作為核心競爭優勢。
             </p>
             <button onclick="closeModal()" class="w-full py-4 bg-slate-900 text-white rounded-xl font-bold">開啟合作討論</button>
         </div>
