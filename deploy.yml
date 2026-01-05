@@ -1,16 +1,12 @@
 name: 部署 IT 平台
 
-# 設定觸發條件：當 main 分支有程式碼推送 (push) 時觸發
 on:
   push:
     branches: ["main"]
-
-  # 允許手動從 Actions 頁面觸發
   workflow_dispatch:
 
-# 設定權限：允許腳本修改 GitHub Pages 內容
 permissions:
-  contents: read
+  contents: write # 這裡改為 write，因為我們要寫入統計資料
   pages: write
   id-token: write
 
@@ -18,25 +14,29 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: 檢出程式碼 (Checkout)
+      - name: 檢出程式碼
         uses: actions/checkout@v4
 
-      - name: 設定 Node.js (以 Astro 為例)
+      # --- 新增：設定 Python 環境 ---
+      - name: 設定 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # --- 新增：執行統計腳本 ---
+      - name: 執行統計與更新
+        run: python scripts/update_stats.py
+
+      - name: 設定 Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
 
-      - name: 安裝依賴項目
-        run: npm install
-
-      - name: 檢查 YAML 數據格式 (選配)
+      - name: 安裝依賴並構建網站
         run: |
-          echo "正在驗證 /data 資料夾下的 YAML 格式..."
-          # 這裡可以放簡單的 python 腳本來驗證資料完整性
-
-      - name: 構建網站 (Build)
-        run: npm run build
+          npm install
+          npm run build
 
       - name: 部署到 GitHub Pages
         uses: actions/deploy-pages@v4
