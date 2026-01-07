@@ -33,14 +33,14 @@
     <header id="vision" class="hero-bg text-white py-24 px-6 text-center">
         <div class="max-w-4xl mx-auto">
             <h1 class="text-5xl md:text-6xl font-bold mb-8 leading-tight">
-                引領下一代 <span class="text-blue-400">液態氫</span> <br>eVTOL 動力革命 [cite: 111, 112]
+                引領下一代 <span class="text-blue-400">液態氫</span> <br>eVTOL 動力革命
             </h1>
             <p class="text-xl text-blue-100 mb-12 font-light">
-                UH 2.0 致力於為 eVTOL 提供液態氫（LH2）儲存與燃料電池動力系統 [cite: 113, 114]。
+                UH 2.0 致力於為 eVTOL 提供液態氫（LH2）儲存與燃料電池動力系統。
             </p>
             <div class="flex flex-wrap justify-center gap-6">
-                <div class="bg-white/10 px-6 py-3 rounded-full border border-white/20">TRL 6-7 技術驗證 [cite: 117]</div>
-                <div class="bg-white/10 px-6 py-3 rounded-full border border-white/20">專注高增長市場 [cite: 119]</div>
+                <div class="bg-white/10 px-6 py-3 rounded-full border border-white/20">TRL 6-7 技術驗證</div>
+                <div class="bg-white/10 px-6 py-3 rounded-full border border-white/20">專注高增長市場</div>
             </div>
         </div>
     </header>
@@ -48,8 +48,8 @@
     <section class="py-20 px-6 max-w-4xl mx-auto text-center reveal">
         <h2 class="text-3xl font-bold mb-6">為什麼是現在？為什麼是液態氫？</h2>
         <p class="text-lg text-slate-600 leading-relaxed">
-            對於實際航程需求，電池過重，氣態氫體積則過於龐大 [cite: 124]。<br>
-            對於 eVTOL，僅需數十公斤液態氫（LH2）即可達成所需的續航時間與任務目標 [cite: 124]。
+            對於實際航程需求，電池過重，氣態氫體積則過於龐大。<br>
+            對於 eVTOL，僅需數十公斤液態氫（LH2）即可達成所需的續航時間與任務目標。
         </p>
     </section>
 
@@ -57,30 +57,36 @@
         <div class="data-card p-8 reveal">
             <div class="text-blue-600 text-3xl mb-6"><i class="fas fa-microchip"></i></div>
             <h3 class="text-xl font-bold mb-4">1. 已驗證動力系統</h3>
-            <p class="text-slate-500 text-sm mb-6">曾成功在測試平台上飛行測試 1MW 氫電動力系統 [cite: 127]。</p>
+            <p class="text-slate-500 text-sm mb-6">曾成功在測試平台上飛行測試 1MW 氫電動力系統。</p>
             <button onclick="toggleInfo('tech1')" class="text-blue-600 text-sm font-bold hover:underline">查看詳情</button>
-            <div id="tech1" class="hidden mt-4 text-xs bg-slate-50 p-4 rounded-lg">技術包含模塊化 LH2 儲存與經過驗證的真空絕緣技術。</div>
+            <div id="tech1" class="hidden mt-4 text-xs bg-slate-50 p-4 rounded-lg text-slate-500">
+                技術包含模塊化 LH2 儲存與經過驗證的真空絕緣技術。
+            </div>
         </div>
 
         <div class="data-card p-8 reveal">
             <div class="text-emerald-600 text-3xl mb-6"><i class="fas fa-chart-line"></i></div>
             <h3 class="text-xl font-bold mb-4">2. 鎖定領先市場</h3>
-            <p class="text-slate-500 text-sm mb-6">中國是全球 eVTOL 領先市場，已有商業營運案例 [cite: 131]。</p>
+            <p class="text-slate-500 text-sm mb-6">中國是全球 eVTOL 領先市場，已有商業營運案例。</p>
             <button onclick="toggleInfo('tech2')" class="text-blue-600 text-sm font-bold hover:underline">市場數據</button>
-            <div id="tech2" class="hidden mt-4 text-xs bg-slate-50 p-4 rounded-lg">2035 年全球市場規模預計將突破 400 億美元 [cite: 132]。</div>
+            <div id="tech2" class="hidden mt-4 text-xs bg-slate-50 p-4 rounded-lg text-slate-500">
+                2035 年全球市場規模預計將突破 400 億美元。
+            </div>
         </div>
 
         <div class="data-card p-8 reveal">
             <div class="text-orange-600 text-3xl mb-6"><i class="fas fa-boxes"></i></div>
             <h3 class="text-xl font-bold mb-4">3. 商業模式</h3>
-            <p class="text-slate-500 text-sm mb-6">提供航空系統套件，包含儲存模組與燃料電池動力系統 [cite: 139]。</p>
+            <p class="text-slate-500 text-sm mb-6">提供航空系統套件，包含儲存模組與燃料電池動力系統。</p>
             <button onclick="toggleInfo('tech3')" class="text-blue-600 text-sm font-bold hover:underline">執行計畫</button>
-            <div id="tech3" class="hidden mt-4 text-xs bg-slate-50 p-4 rounded-lg">第一階段重組團隊；第二階段透過中國供應鏈實現產業化量產。</div>
+            <div id="tech3" class="hidden mt-4 text-xs bg-slate-50 p-4 rounded-lg text-slate-500">
+                第一階段重組團隊；第二階段透過中國供應鏈實現產業化量產。
+            </div>
         </div>
     </section>
 
     <section id="market" class="py-24 text-center px-6 reveal">
-        <h2 class="text-3xl font-bold mb-8">準備好見證航空能源的未來了嗎？ [cite: 141]</h2>
+        <h2 class="text-3xl font-bold mb-8">準備好見證航空能源的未來了嗎？</h2>
         <button onclick="openModal()" class="bg-blue-600 hover:bg-blue-700 text-white text-lg px-12 py-4 rounded-full font-bold shadow-lg transition">核心策略</button>
     </section>
 
